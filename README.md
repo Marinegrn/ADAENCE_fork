@@ -6,18 +6,20 @@
 
 ## 🚀 Fonctionnalités principales
 
-- ✅ Barre de navigation (Navbar)
-- ✅ Page d’accueil :
-  - Bouton **Rechercher** redirige vers la page *Je rends visite* avec filtres
-  - Bouton **Voir tous les profils** redirige sans filtre
-- ✅ Page **Je rends visite** :
+- Barre de navigation
+- Page d’accueil :
+    - Bouton **Rechercher** redirige vers la page *Je rends visite* avec filtres
+    - Bouton **Voir tous les profils** redirige sans filtre
+
+- Page **Je rends visite** :
   - Liste des aînés disponibles
   - Filtres : **Moment à partager** et **Localisation**
   - Bouton **Programmer un moment** : affiche dans la console le prénom + moment favori
-  - 💡 Bonus : Pagination
-- ✅ Page **Devenir bénévole** *(bonus)* : formulaire d’envoi d’email
-- ✅ Lien **Nous contacter** dans le footer : `mailto:`
-- ✅ Validation et gestion d’erreur sur les formulaires
+  - Pagination
+  
+-  Page **Devenir bénévole** *(bonus)* : formulaire d’envoi d’email
+-  Lien **Nous contacter** dans le footer : `mailto:`
+-  Validation et gestion d’erreur sur les formulaires
 
 ---
 
