@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/page2.css" rel="stylesheet">
+    <title>ADEANCE - Je rends visite - Page 2</title>
+    <!-- Ajout framework font awesome pour les icônes-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="./indexHomepage.html" class="logo">
+            <h1>Ad<span>aence</span></h1>
+        </a>
+        <nav class="nav">
+            <a href="./indexHomepage.html"><i class="fas fa-home"></i> Accueil</a>
+            <a href="#"><i class="fas fa-hand-holding-heart"></i> Je rends visite</a>
+            <a href="#"><i class="fas fa-book"></i> Guide du partage</a>
+            <a href="./suscribe.html"><i class="fas fa-users"></i> Devenir bénévole</a>
+        </nav>
+        <a href="#" class="cta-btn">Faire un don <i class="fas fa-heart"></i></a>    
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <form class="search-form">
+                <div class="search-row">
+                    <div class="search-col">
+                        <label for="moment-type" class="form-label">Moment à partager</label>
+                        <select id="moment-type" class="form-select">
+                            <option value="all">Tous les moments possibles</option>
+                            <option value="drink">Un café/thé</option>
+                            <option value="meal">Un repas</option>
+                            <option value="conversation">Conversation</option>
+                            <option value="walk">Promenade</option>
+                            <option value="culture">Une sortie culturelle</option>
+                            <option value="boardGames">Jeux de société</option>
+                            <option value="other">Autre activité</option>
+                        </select>
+                    </div>
+                    <div class="search-col">
+                        <label for="location" class="form-label">Localisation</label>
+                        <input type="text" id="location" class="form-input" placeholder="Votre ville">
+                    </div>
+                    <div class="search-col" style="max-width: 150px;">
+                        <label class="form-label">&nbsp;</label>
+                        <button type="button" id="search-button" class="search-btn">Rechercher</button>
+                    </div>
+                </div>
+            </form>
+            <div class="search-results">
+                <span id="results-count">moments trouvés</span>
+                <a href="#" class="reset-link">Réinitialiser les filtres</a>
+            </div>
+        </div>
+
+        <div class="card-grid" id="elders-container">
+            <!-- Cards générées en JS -->
+        </div>
+
+        <div class="pagination">
+            <a href="#" class="page-link active">1</a>
+            <a href="#" class="page-link">2</a>
+            <!--ajout pagination foncitonnelle ?--> 
+            <a href="#" class="page-link">3</a>
+            <a href="#" class="next-link">Suivant  »</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>ADAENCE</h3>
+                <p>Notre mission est de recréer du lien avec les personnes âgées isolées, en leur offrant des moments de partage, d'écoute et de présence.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitch"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>INFORMATIONS UTILES</h3>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Liste des activités</a></li>
+                    <li><a href="#">Nous contacter</a></li>
+                    <li><a href="#">Mentions légales</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>CONTACT</h3>
+                <p>116 Rue du Faubourg Saint-Martin<br>75010 Paris, France</p>
+                <p>Email: contact@adaence.fr</p>
+                <p>Tél: +33 1 23 45 67 89</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Adaence. Tous droits réservés.</p>
+            <p>Ce site a été développé dans le cadre d'un projet pour ADA Tech School.</p>
+        </div>
+    </footer>
+    <script src="./scripts/script.js" type="module"></script>
+</body>
+
+</html>

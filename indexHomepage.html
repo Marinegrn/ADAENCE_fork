@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/styleHomepage.css" rel="stylesheet">
+    <title>Projet individuel ADAENCE - Site solidaire pour les aîné.e.s</title>
+    <!-- Ajout framework font awesome pour les icônes-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <!-- Image du logo tasse -->
+            <h1>Ada<span>ence</span></h1>
+        </a>
+        <nav>
+            <a href="#"><i class="fas fa-home"></i> Accueil</a>
+            <a href="./page2.html"><i class="fas fa-hand-holding-heart"></i> Je rends visite</a>
+            <a href="#"><i class="fas fa-book"></i> Guide du partage</a>
+            <a href="./suscribe.html"><i class="fas fa-users"></i> Devenir bénévole</a>
+        </nav>
+        <a href="#" class="cta-btn donate">Faire un don <i class="fas fa-heart"></i></a>
+    </header>
+
+    <section class="hero">
+        <h2>RETABLISSONS LES LIENS</h2>
+        <p>Et si vous offriez un peu de votre temps à ceux qui en ont le plus besoin ? Prenez rendez-vous pour partager un moment avec une personne âgée isolée.</p>
+        
+        <div class="search-container">
+            <div class="search-filters">
+                <div>
+                    <label for="moment-type">Moment à partager</label>
+                    <select id="moment-type">
+                        <option value="all">Tous les moments</option>
+                        <option>Un café/thé</option>
+                        <option>Un repas</option>
+                        <option>Conversation</option>
+                        <option>Promenade</option>
+                        <option>Jeux de société</option>
+                        <option>Lecture</option>
+                        <option>Autre activité</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="location">Localisation</label>
+                    <input type="text" id="location" placeholder="Votre ville">
+                </div>
+                <div style="display: flex; align-items: flex-end;">
+                    <button class="search-btn">Rechercher</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="personalities">
+        <h2>LES PERSONNALITES A RENCONTRER</h2>
+        <p>Feuilletez les visages de celles et ceux qui attendent simplement un peu de votre temps. Chaque sourire porte une histoire, chaque rencontre est une promesse.</p>
+        
+        <div class="gallery">
+            <!-- Grid d'images des profils -->
+            <div class="gallery-item">
+                <img src="images/img1.jpg" alt="Personne âgée 1">
+            </div>
+            <div class="gallery-item">
+                <img src="images/img2.jpg" alt="Personne âgée 2">
+            </div>
+            <div class="gallery-item">
+                <img src="images/img3.jpg" alt="Personne âgée 3">
+            </div>
+            <div class="gallery-item">
+                <img src="images/img4.jpg" alt="Personne âgée 4">
+            </div>
+            <div class="gallery-item">
+                <img src="images/img5.jpg" alt="Personne âgée 5">
+            </div>
+            <div class="gallery-item">
+                <img src="images/img6.jpg" alt="Personne âgée 6">
+            </div>
+            <div class="gallery-item">
+                <img src="images/img7bis.jpg" alt="Personne âgée 7">
+            </div>
+            <div class="gallery-item">
+                <img src="images/img8.jpg" alt="Personne âgée 8">
+            </div>
+        </div>
+        
+        <a href="./page2.html" class="view-all-btn">Voir tous les profils</a>
+    </section>
+
+    <section class="how-it-works">
+        <h2>COMMENT CA MARCHE</h2>
+        <p>Offrir un peu de votre temps, c'est offrir beaucoup. Découvrez comment planifier une visite en toute simplicité.</p>
+        
+        <div class="steps">
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h3><span>1.</span> Choisissez une rencontre</h3>
+                <p>Parcourez les profils de nos aînés et trouvez la personne avec qui vous aimeriez partager un moment.</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-edit"></i>
+                </div>
+                <h3><span>2.</span> Remplissez le formulaire</h3>
+                <p>Indiquez vos disponibilités et vos envies. Cela nous aidera à organiser une rencontre adaptée en toute confiance.</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h3><span>3.</span> Partagez un moment</h3>
+                <p>Rendez visite à la personne âgée dans un cadre accueillant : une discussion, une balade ou simplement l'aider à une tâche ! Chaque moment compte.</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3><span>4.</span> Créez du lien</h3>
+                <p>D'une rencontre naît souvent un lien, revenir ! Ensemble, tissons des liens durables et combattons l'isolement pas à pas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="make-difference">
+        <h2>PRET·E A FAIRE LA DIFFERENCE ?</h2>
+        <p>Offrez un peu de votre temps, partagez un moment, créez du lien... Chaque présence compte. En tendant la main à une personne âgée, vous lui offrez bien plus qu'une visite : une vraie bouffée de chaleur humaine.</p>
+        
+        <div class="cta-buttons">
+            <a href="./page2.html" class="cta-btn primary">Programmer une visite</a>
+            <a href="#" class="cta-btn donate">Faire un don <i class="fas fa-heart"></i></a>
+            <a href="./suscribe.html" class="cta-btn volunteer">Devenir bénévole</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+
+            <div class="footer-section">
+                <h3>ADAENCE</h3>
+                <p>Notre mission est de recréer du lien avec les personnes âgées isolées, en leur offrant des moments de partage, d'écoute et de présence.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitch"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>INFORMATIONS UTILES</h3>
+                <div class="footer-links">
+                    <a href="#">FAQs</a>
+                    <a href="#">Liste des activités</a>
+                    <a href="#">Nous contacter</a>
+                    <a href="#">Mentions légales</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>CONTACT</h3>
+                <div class="contact-info">
+                    <p>116 Rue du Faubourg Saint-Martin</p>
+                    <p>75010 Paris, France</p>
+                    <p>Email: contact@adaence.fr</p>
+                    <p>Tel: +33 1 23 45 67 89</p>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="copyright">
+            <p>© 2025 Adaence. Tous droits réservés.</p>
+            <p>Ce site a été développé dans le cadre d'un projet pour ADA Tech School.</p>
+        </div>
+    </footer>
+
+
+    <script src="./scripts/script.js" type="module"></script>
+</body>
+
+</html>
