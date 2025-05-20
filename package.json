@@ -1,0 +1,25 @@
+{
+  "name": "adaence_fork",
+  "version": "1.0.0",
+  "description": "elders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marinegrn/ADAENCE_fork.git"
+  },
+  "keywords": [
+    "marinegareinFranceSpence"
+  ],
+  "author": "MarineGrn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marinegrn/ADAENCE_fork/issues"
+  },
+  "homepage": "https://github.com/Marinegrn/ADAENCE_fork#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
