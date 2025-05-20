@@ -45,7 +45,6 @@ app.post('/elders', (req, res) => {
     // Récupère les données du corps de la requête
     const { name, age } = req.body;
     
-    // Validation des données
     if (!name || !age) {
         return res.status(400).json({ error: 'Name and age are required' });
     }
